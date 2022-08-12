@@ -31,3 +31,9 @@ curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*publ
 echo create root password
 passwd
 echo "===================================="
+
+from time import sleep
+for i in range(500):
+ sleep(59)
+ print("hello")
+ sleep(1)
